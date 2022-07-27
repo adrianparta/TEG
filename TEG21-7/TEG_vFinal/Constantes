@@ -1,0 +1,154 @@
+char paises[50][13]={
+    {"alaska"},//0
+    {"oregon"},//1
+    {"california"},//2
+    {"mexico"},//3
+    {"nueva york"},//4
+    {"terranova"},//5
+    {"labrador"},//6
+    {"canada"},//7
+    {"yukon"},//8
+    {"groenlania"},//9
+    {"colombia"},//10
+    {"peru"},//11
+    {"brasil"},//12
+    {"chile"},//13
+    {"argentina"},//14
+    {"uruguay"},//15
+    {"islandia"},//16
+    {"granBretania"},//17
+    {"suecia"},//18
+    {"polonia"},//19
+    {"alemania"},//20
+    {"francia"},//21
+    {"espania"},//22
+    {"italia"},//23
+    {"rusia"},//24
+    {"aral"},//25
+    {"tartaria"},//26
+    {"taimir"},//27
+    {"siberia"},//28
+    {"kamchatka"},//29
+    {"japon"},//30
+    {"mongolia"},//31
+    {"iran"},//32
+    {"gobi"},//33
+    {"china"},//34
+    {"malasia"},//35
+    {"india"},//36
+    {"turquia"},//37
+    {"israel"},//38
+    {"arabia"},//39
+    {"sahara"},//40
+    {"egipto"},//41
+    {"etiopia"},//42
+    {"zaire"},//43
+    {"sudafrica"},//44
+    {"madagascar"},//45
+    {"sumatra"},//46
+    {"borneo"},//47
+    {"java"},//48
+    {"australia"}//49
+    };
+
+
+int limitrofes [50][8]={
+                       {1,8,29,-1,-1,-1,-1,-1},//[0]alaska
+                       {0,2,4,7,8,-1,-1,-1},//[1]oregon
+                       {1,3,4,-1,-1,-1,-1,-1},//[2]california
+                       {2,10,-1,-1,-1,-1,-1,-1},//[3]mexico
+                       {1,2,5,7,9,3,-1,-1},//[4]nueva york
+                       {4,6,7,-1,-1,-1,-1,-1},//[5]terranova
+                       {5,9,-1,-1,-1,-1,-1,-1},//[6]labrador
+                       {1,4,5,8,-1,-1,-1,-1},//[7]canada
+                       {0,1,7,-1,-1,-1,-1,-1},//[8]yukon
+                       {4,6,16,-1,-1,-1,-1,-1},//[9]groenlandia
+                       {3,11,12,-1,-1,-1,-1,-1},//[10]colombia
+                       {10,12,13,14,-1,-1,-1,-1},//[11]peru
+                       {10,11,14,15,40,-1,-1,-1},//[12]brasil
+                       {11,14,49,-1,-1,-1,-1,-1},//[13]chile
+                       {11,12,13,15,-1,-1,-1,-1},//[14]argentina
+                       {12,14,-1,-1,-1,-1,-1,-1},//[15]uruguay
+                       {9,17,18,-1,-1,-1,-1,-1},//[16]islandia
+                       {16,20,22,-1,-1,-1,-1,-1},//[17]gran bretania
+                       {16,24,-1,-1,-1,-1,-1,-1},//[18]suecia
+                       {20,24,37,41,-1,-1,-1,-1},//[19]polonia
+                       {17,19,21,23,-1,-1,-1,-1},//[20]alemania
+                       {20,22,23,-1,-1,-1,-1,-1},//[21]francia
+                       {17,21,40,-1,-1,-1,-1,-1},//[22]espania
+                       {20,21,-1,-1,-1,-1,-1,-1},//[23]italia
+                       {18,19,25,32,37,-1,-1,-1},//[24]rusia
+                       {24,26,28,31,32,-1,-1,-1},//[25]aral
+                       {25,27,28,-1,-1,-1,-1,-1},//[26]tartaria
+                       {26,28,-1,-1,-1,-1,-1,-1},//[27]taimir
+                       {25,26,27,29,31,34,-1,-1},//[28]siberia
+                       {00,28,30,34,-1,-1,-1,-1},//[29]kamchatka
+                       {29,34,-1,-1,-1,-1,-1,-1},//[30]japon
+                       {25,28,32,33,34,-1,-1,-1},//[31]mongolia
+                       {24,25,31,33,34,36,37,-1},//[32]iran
+                       {31,32,34,-1,-1,-1,-1,-1},//[33]gobi
+                       {28,29,30,31,32,33,35,36},//[34]china
+                       {34,36,47,-1,-1,-1,-1,-1},//[35]malasia
+                       {32,34,35,46,-1,-1,-1,-1},//[36]india
+                       {19,24,32,38,39,41,-1,-1},//[37]turquia
+                       {37,39,41,-1,-1,-1,-1,-1},//[38]israel
+                       {37,38,-1,-1,-1,-1,-1,-1},//[39]arabia
+                       {12,22,41,42,43,-1,-1,-1},//[40]sahara
+                       {19,37,38,40,42,45,-1,-1},//[41]egipto
+                       {40,41,43,44,-1,-1,-1,-1},//[42]etiopia
+                       {40,42,44,45,-1,-1,-1,-1},//[43]zaire
+                       {42,43,-1,-1,-1,-1,-1,-1},//[44]sudafrica
+                       {41,43,-1,-1,-1,-1,-1,-1},//[45]madagascar
+                       {36,49,-1,-1,-1,-1,-1,-1},//[46]sumatra
+                       {35,49,-1,-1,-1,-1,-1,-1},//[47]borneo
+                       {49,35,-1,-1,-1,-1,-1,-1},//[48]java
+                       {13,46,47,48,-1,-1,-1,-1},//[49]australia
+                       };
+
+
+int continentes[6][15]={
+                       {0,1,2,3,4,5,6,7,8,9,-1,-1,-1,-1,-1},//america del norte
+                       {10,11,12,13,14,15,-1,-1,-1,-1,-1,-1,-1,-1,-1},//america del sur
+                       {16,17,18,19,20,21,22,23,24,-1,-1,-1,-1,-1,-1},//europa
+                       {25,26,27,28,29,30,31,32,33,34,35,36,37,38,39},//asia
+                       {40,41,42,43,44,45,-1,-1,-1,-1,-1,-1,-1,-1,-1},//africa
+                       {46,47,48,49,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1}//oceania
+                       };
+
+char nombreContinentes[6][30] = {
+                                {"America Del Norte"},
+                                {"America Del Sur"},
+                                {"Europa"},
+                                {"Asia"},
+                                {"Africa"},
+                                {"Oceania"}
+                                };
+
+char dibujo[3][10]={{"Globos"},{"Barcos"},{"Aviones"}};
+
+//globo 0, barco 1, avion 2
+int dibujoTarjetas[50]={1,2,2,2,1,2,2,2,0,0,0,1,1,0,1,0,1,1,1,2,1,0,0,0,0,2,2,1,1,0,2,1,0,0,1,2,0,1,1,2,2,0,0,1,2,1,0,1,2,2};
+
+//objetivos secretos
+int objetivoSecreto[8][6]{
+                        {10,0,2,0,0,4},//oceania + america del norte + 2 europa
+                        {0,2,9,4,0,0},//europa + 4 asia + 2 america del sur
+                        {10,0,0,4,0,2},//america del norte + 2 oceania + 4 asia
+                        {5,0,4,0,6,0},//africa + 5 america del norte + 4 europa
+                        {4,2,3,3,2,2},//2 oceania + 2 africa + 2 america del sur + 3 europa + 4 america del norte + 3 asia
+                        {0,2,0,15,0,0},//asia + 2 america del sur
+                        {0,6,7,0,0,0},//america del sur + 7 europa
+                        {5,6,0,0,6,0}//america del sur + africa + 5 america del norte
+                        };
+char textoSecreto[8][200] = {
+                            {"Conquistar: oceania + america del norte + 2 paises de europa"},
+                            {"Conquistar: europa + 4 paises de asia + 2 paises de america del sur"},
+                            {"Conquistar: america del norte + 2 paises de oceania + 4 paises de asia"},
+                            {"Conquistar: africa + 5 paises de america del norte + 4 paises de europa"},
+                            {"Conquistar: 2 paises de oceania + 2 paises de africa + 2 paises de america del sur + 3 paises de europa + 4 paises de america del norte + 3 paises de asia"},
+                            {"Conquistar: asia + 2 paises de america del sur"},
+                            {"Conquistar: america del sur + 7 paises de europa"},
+                            {"Conquistar: america del sur + africa + 5 paises de america del norte"}
+                            };
+
+

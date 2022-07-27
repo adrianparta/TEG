@@ -1,0 +1,469 @@
+# depslib dependency file v1.0
+1656824017 source:c:\users\adria\onedrive\escritorio\nueva carpeta\teg\main.cpp
+	<iostream>
+	"funciones.h"
+
+1571584339 c:\users\adria\onedrive\escritorio\nueva carpeta\teg\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1656824383 c:\users\adria\onedrive\escritorio\nueva carpeta\teg\funciones.h
+	"rlutil.h"
+	<ctime>
+	"TileMap"
+
+1656819678 c:\users\adria\onedrive\escritorio\nueva carpeta\teg\incorporarejercitos.h
+
+1656823976 c:\users\adria\onedrive\escritorio\nueva carpeta\teg\dados.h
+	<cstdlib>
+	<ctime>
+
+1656817417 c:\users\adria\onedrive\escritorio\nueva carpeta\teg\tilemap
+
+1656967791 source:d:\teg\main.cpp
+	<iostream>
+	"funciones.h"
+
+1657250649 d:\teg\funciones.h
+	"rlutil.h"
+	<ctime>
+	"TileMap"
+	"Constantes"
+
+1571584339 d:\teg\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1656983963 d:\teg\tilemap
+
+1657250488 d:\teg\constantes
+
+1657254519 source:c:\users\adria\downloads\teg (1)\teg\main.cpp
+	<iostream>
+	"Constantes"
+	"funciones.h"
+
+1657262455 c:\users\adria\downloads\teg (1)\teg\funciones.h
+	"rlutil.h"
+	<ctime>
+	"TileMap"
+	<cstdlib>
+
+1571584339 c:\users\adria\downloads\teg (1)\teg\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1656983963 c:\users\adria\downloads\teg (1)\teg\tilemap
+
+1657250488 c:\users\adria\downloads\teg (1)\teg\constantes
+
+1657431652 source:c:\users\adria\downloads\teg_1\teg (1)\teg\main.cpp
+	<iostream>
+	"Constantes"
+	"funciones.h"
+
+1657250488 c:\users\adria\downloads\teg_1\teg (1)\teg\constantes
+
+1657430089 c:\users\adria\downloads\teg_1\teg (1)\teg\funciones.h
+	"rlutil.h"
+	<ctime>
+	"TileMap"
+	<cstdlib>
+
+1571584339 c:\users\adria\downloads\teg_1\teg (1)\teg\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1657432086 c:\users\adria\downloads\teg_1\teg (1)\teg\tilemap
+
+1657434419 source:d:\teg_v3\main.cpp
+	<iostream>
+	"Constantes"
+	"funciones.h"
+
+1657250488 d:\teg_v3\constantes
+
+1657437223 d:\teg_v3\funciones.h
+	"rlutil.h"
+	<ctime>
+	"TileMap"
+	<cstdlib>
+
+1571584339 d:\teg_v3\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1657432086 d:\teg_v3\tilemap
+
+1657493177 source:c:\users\adria\downloads\teg_v5\teg_v5\main.cpp
+	<iostream>
+	"Constantes"
+	"funciones.h"
+
+1657250488 c:\users\adria\downloads\teg_v5\teg_v5\constantes
+
+1657493582 c:\users\adria\downloads\teg_v5\teg_v5\funciones.h
+	"rlutil.h"
+	<ctime>
+	"TileMap"
+	<cstdlib>
+
+1571584339 c:\users\adria\downloads\teg_v5\teg_v5\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1657432086 c:\users\adria\downloads\teg_v5\teg_v5\tilemap
+
+1657517905 source:c:\users\adria\downloads\teg_v5\teg_v6\main.cpp
+	<iostream>
+	"Constantes"
+	"funciones.h"
+
+1657519903 c:\users\adria\downloads\teg_v5\teg_v6\constantes
+
+1657520067 c:\users\adria\downloads\teg_v5\teg_v6\funciones.h
+	"rlutil.h"
+	<ctime>
+	"TileMap"
+	<cstdlib>
+
+1571584339 c:\users\adria\downloads\teg_v5\teg_v6\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1657510280 c:\users\adria\downloads\teg_v5\teg_v6\tilemap
+
+1657612691 source:d:\tegproject\teg_v7\main.cpp
+	<iostream>
+	"Constantes"
+	"funciones.h"
+
+1657612035 d:\tegproject\teg_v7\constantes
+
+1657614353 d:\tegproject\teg_v7\funciones.h
+	"rlutil.h"
+	<ctime>
+	"TileMap"
+	<cstdlib>
+
+1571584339 d:\tegproject\teg_v7\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1657565623 d:\tegproject\teg_v7\tilemap
+
+1657612691 source:d:\tegproject\teg_v8\main.cpp
+	<iostream>
+	"Constantes"
+	"funciones.h"
+
+1657615393 d:\tegproject\teg_v8\constantes
+
+1657616668 d:\tegproject\teg_v8\funciones.h
+	"rlutil.h"
+	<ctime>
+	"TileMap"
+	<cstdlib>
+
+1571584339 d:\tegproject\teg_v8\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1657565623 d:\tegproject\teg_v8\tilemap
+
+1657650278 source:d:\tegproject\teg_v10\main.cpp
+	<iostream>
+	"Constantes"
+	"funciones.h"
+
+1657615393 d:\tegproject\teg_v10\constantes
+
+1657651754 d:\tegproject\teg_v10\funciones.h
+	"rlutil.h"
+	<ctime>
+	"TileMap"
+	<cstdlib>
+
+1571584339 d:\tegproject\teg_v10\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1657565623 d:\tegproject\teg_v10\tilemap
+
+1657650278 source:d:\tegproject\teg_v11\main.cpp
+	<iostream>
+	"Constantes"
+	"funciones.h"
+
+1657691099 d:\tegproject\teg_v11\constantes
+
+1657690463 d:\tegproject\teg_v11\funciones.h
+	"rlutil.h"
+	<ctime>
+	"TileMap"
+	<cstdlib>
+
+1571584339 d:\tegproject\teg_v11\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1657690023 d:\tegproject\teg_v11\tilemap
+
+1657650278 source:c:\users\adria\downloads\final_laboratorio_partarrieu_campanella\teg_vfinal\main.cpp
+	<iostream>
+	"Constantes"
+	"funciones.h"
+
+1657691099 c:\users\adria\downloads\final_laboratorio_partarrieu_campanella\teg_vfinal\constantes
+
+1657690463 c:\users\adria\downloads\final_laboratorio_partarrieu_campanella\teg_vfinal\funciones.h
+	"rlutil.h"
+	<ctime>
+	"TileMap"
+	<cstdlib>
+
+1571584339 c:\users\adria\downloads\final_laboratorio_partarrieu_campanella\teg_vfinal\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1657690023 c:\users\adria\downloads\final_laboratorio_partarrieu_campanella\teg_vfinal\tilemap
+
+1657650278 source:c:\users\adria\downloads\teg_final_partarrieu_campanella\teg_final_partarrieu_campanella\teg_vfinal\main.cpp
+	<iostream>
+	"Constantes"
+	"funciones.h"
+
+1657691099 c:\users\adria\downloads\teg_final_partarrieu_campanella\teg_final_partarrieu_campanella\teg_vfinal\constantes
+
+1657888442 c:\users\adria\downloads\teg_final_partarrieu_campanella\teg_final_partarrieu_campanella\teg_vfinal\funciones.h
+	"rlutil.h"
+	<ctime>
+	"TileMap"
+	<cstdlib>
+
+1571584339 c:\users\adria\downloads\teg_final_partarrieu_campanella\teg_final_partarrieu_campanella\teg_vfinal\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1657690023 c:\users\adria\downloads\teg_final_partarrieu_campanella\teg_final_partarrieu_campanella\teg_vfinal\tilemap
+
+1658431657 source:c:\users\adria\onedrive\escritorio\teg_final_partarrieu_campanella (1)\teg_final_partarrieu_campanella\teg_final_partarrieu_campanella\teg_vfinal\teg_vfinal\main.cpp
+	<iostream>
+	"Constantes"
+	<windows.h>
+	"funciones.h"
+
+1657691099 c:\users\adria\onedrive\escritorio\teg_final_partarrieu_campanella (1)\teg_final_partarrieu_campanella\teg_final_partarrieu_campanella\teg_vfinal\teg_vfinal\constantes
+
+1658001852 c:\users\adria\onedrive\escritorio\teg_final_partarrieu_campanella (1)\teg_final_partarrieu_campanella\teg_final_partarrieu_campanella\teg_vfinal\teg_vfinal\funciones.h
+	"rlutil.h"
+	<ctime>
+	"TileMap"
+	<cstdlib>
+
+1571584339 c:\users\adria\onedrive\escritorio\teg_final_partarrieu_campanella (1)\teg_final_partarrieu_campanella\teg_final_partarrieu_campanella\teg_vfinal\teg_vfinal\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1657690023 c:\users\adria\onedrive\escritorio\teg_final_partarrieu_campanella (1)\teg_final_partarrieu_campanella\teg_final_partarrieu_campanella\teg_vfinal\teg_vfinal\tilemap
+
+1658431901 source:c:\users\adria\onedrive\escritorio\teg_presentracion21-7\teg_vfinal\main.cpp
+	<iostream>
+	"Constantes"
+	<windows.h>
+	"funciones.h"
+
+1657691099 c:\users\adria\onedrive\escritorio\teg_presentracion21-7\teg_vfinal\constantes
+
+1658001852 c:\users\adria\onedrive\escritorio\teg_presentracion21-7\teg_vfinal\funciones.h
+	"rlutil.h"
+	<ctime>
+	"TileMap"
+	<cstdlib>
+
+1571584339 c:\users\adria\onedrive\escritorio\teg_presentracion21-7\teg_vfinal\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1657690023 c:\users\adria\onedrive\escritorio\teg_presentracion21-7\teg_vfinal\tilemap
+
+1658431901 source:c:\users\adria\onedrive\escritorio\teg_vfinal-21-7\teg_vfinal\main.cpp
+	<iostream>
+	"Constantes"
+	<windows.h>
+	"funciones.h"
+
+1657691099 c:\users\adria\onedrive\escritorio\teg_vfinal-21-7\teg_vfinal\constantes
+
+1658432357 c:\users\adria\onedrive\escritorio\teg_vfinal-21-7\teg_vfinal\funciones.h
+	"rlutil.h"
+	<ctime>
+	"TileMap"
+	<cstdlib>
+
+1571584339 c:\users\adria\onedrive\escritorio\teg_vfinal-21-7\teg_vfinal\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1657690023 c:\users\adria\onedrive\escritorio\teg_vfinal-21-7\teg_vfinal\tilemap
+
